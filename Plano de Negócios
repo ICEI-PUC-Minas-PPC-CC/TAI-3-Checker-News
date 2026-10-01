@@ -1,0 +1,382 @@
+Plano de Negócios — Checker News
+
+1. Apresentação
+
+O Checker News é uma solução voltada à identificação e verificação de informações potencialmente falsas ou enganosas encontradas na internet.
+
+O projeto tem como objetivo auxiliar os usuários na análise de conteúdos informativos, apresentando informações de verificação de forma simples, objetiva e acessível. A solução busca contribuir para o consumo mais consciente de informações digitais, especialmente em ambientes onde a disseminação de notícias falsas pode ocorrer rapidamente.
+
+O modelo de negócio foi estruturado considerando dois cenários:
+
+- Cenário Lean: estrutura mínima necessária para colocar o produto em funcionamento e validar a proposta.
+- Cenário Ideal: estrutura ampliada, considerando recursos tecnológicos, humanos e de divulgação desejáveis para a operação e crescimento do negócio.
+
+---
+
+2. Objetivos do Negócio
+
+Os principais objetivos do Checker News são:
+
+- Disponibilizar uma ferramenta acessível para verificação de informações.
+- Facilitar a identificação de possíveis conteúdos falsos ou enganosos.
+- Desenvolver uma interface simples e intuitiva.
+- Aumentar a confiança dos usuários no processo de consulta das informações.
+- Validar a aceitação da solução junto ao público.
+- Criar uma estrutura que possibilite a expansão futura do projeto.
+- Estabelecer um modelo de negócio sustentável.
+
+---
+
+3. Público-Alvo
+
+O Checker News pode atender diferentes grupos de usuários, principalmente:
+
+- Estudantes;
+- Professores e instituições de ensino;
+- Usuários de redes sociais;
+- Jornalistas e produtores de conteúdo;
+- Empresas e organizações;
+- Pessoas interessadas em verificar informações antes de compartilhá-las;
+- Usuários que desejam compreender melhor a confiabilidade de uma notícia ou informação encontrada na internet.
+
+---
+
+4. Modelo de Negócio
+
+O modelo inicial do Checker News poderá utilizar uma estratégia freemium, na qual funcionalidades básicas são disponibilizadas gratuitamente e recursos adicionais podem ser oferecidos por meio de planos pagos.
+
+Plano gratuito
+
+Pode incluir:
+
+- Consulta básica de informações;
+- Verificação de conteúdos;
+- Resultado simplificado da análise;
+- Acesso às funcionalidades essenciais da plataforma.
+
+Plano premium
+
+Pode incluir:
+
+- Maior quantidade de consultas;
+- Histórico de verificações;
+- Relatórios mais detalhados;
+- Recursos adicionais de análise;
+- Ausência de publicidade;
+- Funcionalidades voltadas a instituições ou empresas.
+
+Além da assinatura, poderão ser estudadas futuramente outras fontes de receita, como publicidade responsável, planos institucionais e parcerias.
+
+---
+
+5. Canais de Distribuição
+
+O principal canal de distribuição será digital, permitindo que o produto seja disponibilizado ao usuário sem a necessidade de estrutura física.
+
+Canais principais
+
+Canal| Objetivo
+Site da plataforma| Disponibilizar o serviço diretamente aos usuários
+Redes sociais| Divulgação e aquisição de novos usuários
+E-mail| Comunicação, relacionamento e divulgação
+Parcerias educacionais| Divulgação em escolas, faculdades e instituições
+Marketing de conteúdo| Produção de conteúdos relacionados à verificação de informações
+Indicação de usuários| Aquisição orgânica de novos usuários
+
+A estratégia inicial priorizará canais de baixo custo, principalmente redes sociais, marketing de conteúdo e divulgação orgânica.
+
+---
+
+6. Levantamento de Custos
+
+Os custos foram divididos entre custos iniciais e custos recorrentes.
+
+6.1 Custos iniciais
+
+Entre os principais investimentos necessários estão:
+
+- Desenvolvimento e configuração da plataforma;
+- Registro de domínio;
+- Criação da identidade visual;
+- Configuração de serviços de hospedagem;
+- Configuração de banco de dados;
+- Integração com APIs e serviços externos, quando necessários;
+- Ferramentas de desenvolvimento e gerenciamento;
+- Divulgação inicial.
+
+Como o projeto possui caráter digital, é possível iniciar com uma estrutura relativamente enxuta.
+
+---
+
+7. Cenário Lean
+
+O cenário Lean representa a estrutura mínima necessária para validar o produto e colocar a primeira versão do Checker News em funcionamento.
+
+Estrutura considerada
+
+Item| Estimativa mensal
+Hospedagem| R$ 100
+Banco de dados/serviços em nuvem| R$ 100
+APIs e serviços externos| R$ 150
+Domínio e serviços relacionados| R$ 20
+Ferramentas de desenvolvimento| R$ 100
+Marketing inicial| R$ 200
+Outros custos operacionais| R$ 100
+Total estimado| R$ 770/mês
+
+Investimento inicial estimado
+
+Item| Estimativa
+Configuração inicial da plataforma| R$ 500
+Identidade visual e materiais| R$ 300
+Configuração de infraestrutura| R$ 200
+Divulgação inicial| R$ 300
+Reserva para despesas iniciais| R$ 500
+Total| R$ 1.800
+
+Os valores são estimativas para planejamento e podem variar de acordo com os fornecedores, tecnologias utilizadas e volume de usuários.
+
+O objetivo do cenário Lean é manter os custos baixos durante a fase de validação do produto.
+
+---
+
+8. Cenário Ideal
+
+O cenário Ideal considera uma estrutura mais completa, preparada para atender um número maior de usuários e possibilitar o crescimento do negócio.
+
+Estrutura considerada
+
+Item| Estimativa mensal
+Infraestrutura em nuvem| R$ 500
+APIs e serviços especializados| R$ 500
+Ferramentas de desenvolvimento e gestão| R$ 300
+Marketing digital| R$ 1.000
+Produção de conteúdo| R$ 800
+Suporte e atendimento| R$ 700
+Monitoramento e segurança| R$ 400
+Reserva operacional| R$ 300
+Total estimado| R$ 4.500/mês
+
+Investimento inicial estimado
+
+Item| Estimativa
+Desenvolvimento e melhorias da plataforma| R$ 3.000
+Identidade visual e comunicação| R$ 1.000
+Infraestrutura inicial| R$ 1.000
+Marketing e lançamento| R$ 2.000
+Equipamentos e ferramentas| R$ 1.500
+Reserva de capital| R$ 2.500
+Total| R$ 11.000
+
+O cenário Ideal permite maior capacidade de atendimento, investimento em divulgação, melhoria da experiência do usuário e desenvolvimento contínuo da plataforma.
+
+---
+
+9. Comparação dos Cenários
+
+Característica| Cenário Lean| Cenário Ideal
+Investimento inicial| R$ 1.800| R$ 11.000
+Custo mensal estimado| R$ 770| R$ 4.500
+Infraestrutura| Básica| Estruturada
+Marketing| Orgânico e baixo investimento| Campanhas e produção de conteúdo
+Suporte| Simplificado| Estruturado
+Escalabilidade| Inicial| Maior
+Objetivo| Validar o negócio| Operar e crescer
+
+Os valores apresentados são estimativas para elaboração do plano e devem ser revisados conforme o projeto avance e sejam definidos fornecedores e serviços reais.
+
+---
+
+10. Modelo de Precificação
+
+A precificação deverá considerar os custos de operação, o valor percebido pelo usuário e a necessidade de sustentabilidade financeira do negócio.
+
+Será utilizado inicialmente um modelo de assinatura mensal, combinado com uma versão gratuita.
+
+Exemplo de estrutura de preços
+
+Plano| Preço sugerido| Público
+Gratuito| R$ 0| Usuários ocasionais
+Premium| R$ 9,90/mês| Usuários frequentes
+Institucional| A definir| Escolas, empresas e organizações
+
+O preço de R$ 9,90 é uma referência inicial para estudo e poderá ser ajustado após testes com usuários e análise de custos.
+
+---
+
+11. Estratégia de Precificação
+
+A estratégia de precificação será baseada nos seguintes fatores:
+
+1. Custos operacionais: infraestrutura, APIs, hospedagem e ferramentas.
+2. Quantidade de usuários: aumento da base de usuários poderá elevar os custos de infraestrutura.
+3. Valor percebido: recursos adicionais e maior quantidade de consultas podem justificar planos pagos.
+4. Concorrência: análise de soluções semelhantes disponíveis no mercado.
+5. Capacidade de pagamento do público-alvo: o preço deverá permanecer acessível para estimular a adesão.
+6. Margem de contribuição: o preço deverá permitir a cobertura dos custos e contribuir para a sustentabilidade do negócio.
+
+---
+
+12. Tributos e Enquadramento Tributário
+
+Para uma eventual operação comercial no Brasil, o enquadramento tributário deverá ser definido de acordo com a natureza jurídica da empresa, atividade exercida, faturamento e demais características do negócio.
+
+Para uma empresa de pequeno porte em fase inicial, poderá ser avaliada a opção pelo Simples Nacional, caso a atividade e os demais requisitos legais permitam o enquadramento.
+
+No Simples Nacional, diversos tributos são recolhidos de forma unificada por meio do Documento de Arrecadação do Simples Nacional (DAS).
+
+Entre os tributos que podem estar envolvidos na atividade estão:
+
+- IRPJ — Imposto de Renda da Pessoa Jurídica;
+- CSLL — Contribuição Social sobre o Lucro Líquido;
+- PIS/Pasep;
+- COFINS;
+- ISS — Imposto Sobre Serviços;
+- CPP — Contribuição Patronal Previdenciária, conforme o enquadramento aplicável.
+
+A tributação efetiva dependerá do CNAE, da natureza dos serviços prestados, do faturamento e do enquadramento tributário escolhido.
+
+Por esse motivo, antes do início da operação comercial, deverá ser realizada uma consulta com contador ou profissional especializado para definição do enquadramento adequado.
+
+---
+
+13. Projeção de Receita — Cenário Simples
+
+Para realizar uma primeira simulação financeira, será considerado o plano Premium com mensalidade de R$ 9,90.
+
+Exemplo com 100 assinantes
+
+100 × R$ 9,90 = R$ 990,00/mês
+
+Exemplo com 300 assinantes
+
+300 × R$ 9,90 = R$ 2.970,00/mês
+
+Exemplo com 500 assinantes
+
+500 × R$ 9,90 = R$ 4.950,00/mês
+
+Esses valores representam receita bruta estimada e não consideram impostos, taxas de pagamento, cancelamentos ou outros custos.
+
+---
+
+14. Cenário Financeiro Simplificado
+
+Considerando o cenário Lean, com custo mensal estimado de R$ 770:
+
+Assinantes| Receita mensal| Custo estimado| Resultado antes de tributos
+50| R$ 495| R$ 770| -R$ 275
+100| R$ 990| R$ 770| R$ 220
+200| R$ 1.980| R$ 770| R$ 1.210
+300| R$ 2.970| R$ 770| R$ 2.200
+500| R$ 4.950| R$ 770| R$ 4.180
+
+Esta simulação não representa uma previsão de faturamento, mas uma ferramenta para visualizar a relação entre número de clientes, receita e custos.
+
+---
+
+15. Ponto de Equilíbrio Simplificado
+
+Considerando apenas o custo operacional mensal estimado do cenário Lean e a mensalidade de R$ 9,90:
+
+R$ 770 ÷ R$ 9,90 ≈ 78 assinantes
+
+Portanto, aproximadamente 78 assinantes seriam necessários para igualar a receita bruta aos custos mensais estimados, antes da consideração de tributos, taxas de pagamento e outros custos variáveis.
+
+Esse número é apenas uma referência matemática e deverá ser recalculado conforme os custos reais do negócio.
+
+---
+
+16. Estratégia de Crescimento
+
+O crescimento do Checker News poderá ocorrer em etapas.
+
+Fase 1 — Validação
+
+- Desenvolver o MVP;
+- Disponibilizar a solução para usuários iniciais;
+- Coletar feedback;
+- Identificar problemas e necessidades;
+- Validar a proposta de valor.
+
+Fase 2 — Aquisição
+
+- Ampliar divulgação nas redes sociais;
+- Produzir conteúdo educativo;
+- Estabelecer parcerias;
+- Incentivar indicações;
+- Implementar estratégias de marketing digital.
+
+Fase 3 — Monetização
+
+- Implementar plano Premium;
+- Testar diferentes preços;
+- Criar planos institucionais;
+- Avaliar novas fontes de receita.
+
+Fase 4 — Escala
+
+- Melhorar infraestrutura;
+- Automatizar processos;
+- Ampliar equipe;
+- Desenvolver novos recursos;
+- Expandir para novos públicos.
+
+---
+
+17. Principais Riscos
+
+Risco| Impacto| Estratégia
+Baixa adesão dos usuários| Alto| Testes e validação contínua
+Custos de infraestrutura maiores que o esperado| Médio| Monitoramento e otimização
+Dependência de APIs externas| Médio| Avaliação de alternativas
+Concorrência| Médio| Diferenciação pela experiência do usuário
+Baixa conversão para o plano Premium| Alto| Testes de preço e funcionalidades
+Problemas de segurança| Alto| Monitoramento e boas práticas de segurança
+Informações incorretamente classificadas| Alto| Transparência sobre resultados e utilização de fontes confiáveis
+
+---
+
+18. Indicadores de Desempenho
+
+Para acompanhar a evolução do negócio, poderão ser utilizados os seguintes indicadores:
+
+- Número de usuários cadastrados;
+- Número de verificações realizadas;
+- Usuários ativos mensalmente;
+- Número de assinantes Premium;
+- Taxa de conversão do plano gratuito para o Premium;
+- Receita mensal;
+- Custo de aquisição de clientes;
+- Taxa de cancelamento;
+- Retenção de usuários;
+- Custo operacional mensal;
+- Satisfação dos usuários.
+
+---
+
+19. Conclusão
+
+O Plano de Negócios do Checker News apresenta uma estrutura inicial que permite validar a solução com investimento relativamente baixo antes da realização de investimentos maiores.
+
+O cenário Lean prioriza a validação da proposta de valor, utilizando uma infraestrutura enxuta e canais digitais de baixo custo.
+
+O cenário Ideal considera uma estrutura mais completa, com maior investimento em infraestrutura, marketing, suporte e desenvolvimento, permitindo preparar o negócio para uma quantidade maior de usuários.
+
+A estratégia de monetização poderá utilizar um modelo freemium, oferecendo funcionalidades básicas gratuitamente e recursos adicionais por meio de assinatura Premium e planos institucionais.
+
+Os valores apresentados neste documento são estimativas para fins acadêmicos e de planejamento. Custos, preços, tributos e demais informações financeiras deverão ser revisados antes de uma eventual operação comercial real, considerando fornecedores, legislação vigente, faturamento e características definitivas da empresa.
+
+---
+
+20. Resumo Executivo
+
+Indicador| Cenário Lean| Cenário Ideal
+Investimento inicial| R$ 1.800| R$ 11.000
+Custo mensal estimado| R$ 770| R$ 4.500
+Modelo de receita| Freemium + Premium| Freemium + Premium + Institucional
+Preço Premium de referência| R$ 9,90/mês| R$ 9,90/mês
+Principal canal| Site e redes sociais| Site, redes sociais e parcerias
+Objetivo| Validação| Crescimento e escala
+
+Documento elaborado para o projeto Checker News.
