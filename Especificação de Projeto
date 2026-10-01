@@ -1,0 +1,109 @@
+# Especificação do Projeto — Checker News
+
+## 1. Identificação do Projeto
+
+**Nome:** Checker News
+
+**Tipo:** Aplicação de verificação e análise de informações
+
+**Objetivo:** Auxiliar usuários na identificação de possíveis fake news e informações enganosas.
+
+---
+
+## 2. Descrição do Sistema
+
+O Checker News é uma aplicação destinada à análise de notícias e informações fornecidas pelo usuário.
+
+O sistema deverá permitir que o usuário envie ou informe um conteúdo para análise e, a partir dos critérios definidos no projeto, realize uma avaliação da informação.
+
+Após o processamento, o sistema deverá apresentar o resultado de maneira clara, permitindo que o usuário compreenda a avaliação realizada.
+
+A aplicação deverá priorizar simplicidade, facilidade de utilização e clareza na apresentação das informações.
+
+---
+
+## 3. Objetivo Funcional
+
+O sistema deverá fornecer ao usuário uma ferramenta que facilite o processo de verificação de uma notícia ou informação.
+
+O fluxo principal esperado é:
+
+1. O usuário acessa o Checker News;
+2. O usuário informa ou insere o conteúdo que deseja verificar;
+3. O sistema recebe o conteúdo;
+4. O sistema realiza o processo de análise;
+5. O sistema apresenta o resultado;
+6. O usuário utiliza o resultado como apoio para avaliar a informação.
+
+---
+
+## 4. Requisitos Funcionais
+
+### RF01 — Inserção de conteúdo
+
+O sistema deverá permitir que o usuário insira ou forneça uma notícia, texto ou informação para análise.
+
+### RF02 — Envio para análise
+
+O sistema deverá disponibilizar uma ação para que o usuário envie o conteúdo fornecido para o processo de análise.
+
+### RF03 — Processamento da informação
+
+O sistema deverá processar o conteúdo enviado de acordo com os critérios definidos para o Checker News.
+
+### RF04 — Apresentação do resultado
+
+O sistema deverá apresentar ao usuário o resultado da análise realizada.
+
+### RF05 — Informações complementares
+
+Quando disponíveis, o sistema deverá apresentar informações que auxiliem o usuário a compreender o motivo ou contexto do resultado apresentado.
+
+### RF06 — Interface de fácil utilização
+
+O sistema deverá apresentar uma interface simples e objetiva, permitindo que o usuário compreenda facilmente como realizar uma análise.
+
+---
+
+## 5. Requisitos Não Funcionais
+
+### RNF01 — Usabilidade
+
+A aplicação deverá possuir uma interface intuitiva, permitindo que usuários com diferentes níveis de conhecimento tecnológico consigam utilizar a ferramenta.
+
+### RNF02 — Desempenho
+
+O sistema deverá realizar o processamento das informações em tempo adequado para proporcionar uma experiência satisfatória ao usuário.
+
+### RNF03 — Clareza
+
+Os resultados deverão ser apresentados de maneira clara, evitando informações desnecessariamente complexas.
+
+### RNF04 — Responsabilidade
+
+O sistema deverá deixar claro que o resultado apresentado possui caráter de apoio à verificação e não deve ser interpretado automaticamente como uma confirmação absoluta da veracidade ou falsidade de uma informação.
+
+### RNF05 — Segurança
+
+As informações fornecidas pelo usuário deverão ser tratadas de acordo com as práticas de segurança e privacidade aplicáveis ao sistema.
+
+---
+
+## 6. Fluxo Principal do Usuário
+
+O fluxo principal do Checker News será composto pelas seguintes etapas:
+
+```text
+Usuário
+   ↓
+Acessa o Checker News
+   ↓
+Insere a notícia ou informação
+   ↓
+Solicita a análise
+   ↓
+Sistema processa o conteúdo
+   ↓
+Resultado da análise
+   ↓
+Usuário interpreta o resultado
