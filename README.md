@@ -102,7 +102,7 @@ O modelo também contribui para estruturar a proposta do Checker News antes e du
 
 
 
-**Imagem do Lean Canvas:**  
+ 
 <img width="1209" height="854" alt="1000235061" src="https://github.com/user-attachments/assets/0dc1dd90-d7b4-41b0-8404-da3a1dede54e" />
 
 
@@ -132,7 +132,7 @@ Ser uma ferramenta de referência em verificação de informações, contribuind
 
 
 
-**Imagem de Missão, Visão e Valores:**  
+ 
 <img width="1440" height="488" alt="Screenshot_20261001_200133_CamScanner" src="https://github.com/user-attachments/assets/97dae7ac-658e-488a-9b7e-5586ca53e057" />
 
 
