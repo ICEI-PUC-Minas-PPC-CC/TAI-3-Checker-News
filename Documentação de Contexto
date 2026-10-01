@@ -1,147 +1,109 @@
-# Documento de Contexto — Checker News
+# Especificação do Projeto — Checker News
 
-## 1. Visão Geral do Projeto
+## 1. Identificação do Projeto
 
-O Checker News é uma aplicação desenvolvida com o objetivo de auxiliar os usuários na identificação de informações falsas, enganosas ou potencialmente duvidosas presentes em notícias e conteúdos compartilhados no ambiente digital.
+**Nome:** Checker News
 
-A proposta surgiu a partir do crescimento da circulação de informações pela internet, especialmente em redes sociais, aplicativos de mensagens e plataformas digitais. A velocidade com que uma informação pode ser compartilhada faz com que muitas pessoas tenham dificuldade para verificar sua confiabilidade antes de acreditar ou repassar determinado conteúdo.
+**Tipo:** Aplicação de verificação e análise de informações
 
-O Checker News busca oferecer uma ferramenta simples e acessível para auxiliar nesse processo de verificação, permitindo que o usuário submeta uma informação para análise e receba um resultado que o ajude a compreender a confiabilidade daquele conteúdo.
-
-O projeto não tem como objetivo substituir profissionais ou organizações especializadas em checagem de fatos, mas atuar como uma ferramenta de apoio ao usuário, incentivando uma postura mais crítica e consciente diante das informações consumidas na internet.
+**Objetivo:** Auxiliar usuários na identificação de possíveis fake news e informações enganosas.
 
 ---
 
-## 2. Problema Identificado
+## 2. Descrição do Sistema
 
-A disseminação de fake news e informações enganosas representa um problema no ambiente digital, pois conteúdos incorretos podem alcançar um grande número de pessoas em pouco tempo.
+O Checker News é uma aplicação destinada à análise de notícias e informações fornecidas pelo usuário.
 
-Em muitos casos, o usuário recebe uma notícia ou mensagem e não possui uma maneira rápida e simples de verificar sua procedência ou confiabilidade. A necessidade de realizar diversas pesquisas manualmente pode fazer com que informações não verificadas sejam compartilhadas antes de sua confirmação.
+O sistema deverá permitir que o usuário envie ou informe um conteúdo para análise e, a partir dos critérios definidos no projeto, realize uma avaliação da informação.
 
-Dessa forma, identifica-se uma oportunidade para desenvolver uma solução tecnológica capaz de auxiliar o usuário durante o processo de verificação de informações.
+Após o processamento, o sistema deverá apresentar o resultado de maneira clara, permitindo que o usuário compreenda a avaliação realizada.
 
----
-
-## 3. Público-Alvo
-
-O Checker News é direcionado principalmente a usuários que consomem informações pela internet, incluindo:
-
-- Usuários de redes sociais;
-- Usuários de aplicativos de mensagens;
-- Estudantes;
-- Professores;
-- Pessoas que acompanham notícias pela internet;
-- Usuários que desejam verificar uma informação antes de compartilhá-la.
-
-A ferramenta pode ser utilizada por qualquer pessoa que tenha interesse em avaliar a confiabilidade de uma notícia ou informação encontrada no ambiente digital.
+A aplicação deverá priorizar simplicidade, facilidade de utilização e clareza na apresentação das informações.
 
 ---
 
-## 4. Contexto de Utilização
+## 3. Objetivo Funcional
 
-O aplicativo pode ser utilizado em situações nas quais o usuário recebe ou encontra uma informação cuja veracidade deseja verificar.
+O sistema deverá fornecer ao usuário uma ferramenta que facilite o processo de verificação de uma notícia ou informação.
 
-Entre os exemplos estão:
+O fluxo principal esperado é:
 
-- Notícias compartilhadas em redes sociais;
-- Mensagens recebidas em aplicativos de comunicação;
-- Textos encaminhados por outras pessoas;
-- Informações encontradas em sites;
-- Conteúdos que apresentam afirmações duvidosas;
-- Notícias que o usuário pretende compartilhar.
-
-O objetivo é tornar o processo de análise mais acessível e permitir que o usuário tenha uma ferramenta de apoio antes de tomar uma decisão baseada em determinada informação.
+1. O usuário acessa o Checker News;
+2. O usuário informa ou insere o conteúdo que deseja verificar;
+3. O sistema recebe o conteúdo;
+4. O sistema realiza o processo de análise;
+5. O sistema apresenta o resultado;
+6. O usuário utiliza o resultado como apoio para avaliar a informação.
 
 ---
 
-## 5. Objetivo do Projeto
+## 4. Requisitos Funcionais
 
-O objetivo principal do Checker News é desenvolver uma aplicação capaz de auxiliar usuários na identificação de possíveis informações falsas ou enganosas.
+### RF01 — Inserção de conteúdo
 
-Como objetivos específicos, o projeto busca:
+O sistema deverá permitir que o usuário insira ou forneça uma notícia, texto ou informação para análise.
 
-- Facilitar o processo de verificação de informações;
-- Reduzir a dificuldade encontrada pelo usuário durante a checagem de uma notícia;
-- Apresentar os resultados de maneira simples e compreensível;
-- Incentivar a verificação de informações antes do compartilhamento;
-- Promover um consumo mais consciente de conteúdos digitais;
-- Utilizar tecnologia como ferramenta de apoio à análise de informações.
+### RF02 — Envio para análise
 
----
+O sistema deverá disponibilizar uma ação para que o usuário envie o conteúdo fornecido para o processo de análise.
 
-## 6. Proposta da Solução
+### RF03 — Processamento da informação
 
-A solução consiste em uma aplicação na qual o usuário poderá fornecer uma notícia ou informação para análise.
+O sistema deverá processar o conteúdo enviado de acordo com os critérios definidos para o Checker News.
 
-Após o envio do conteúdo, o sistema realiza o processo de análise definido para o projeto e apresenta ao usuário um resultado relacionado à confiabilidade da informação.
+### RF04 — Apresentação do resultado
 
-A aplicação procura simplificar uma atividade que normalmente exigiria que o usuário realizasse pesquisas em diferentes fontes, oferecendo uma experiência centralizada e de fácil utilização.
+O sistema deverá apresentar ao usuário o resultado da análise realizada.
 
-O resultado apresentado deve ser entendido como uma ferramenta de apoio à decisão e à análise crítica, não como uma garantia absoluta de que determinado conteúdo seja verdadeiro ou falso.
+### RF05 — Informações complementares
 
----
+Quando disponíveis, o sistema deverá apresentar informações que auxiliem o usuário a compreender o motivo ou contexto do resultado apresentado.
 
-## 7. Benefícios Esperados
+### RF06 — Interface de fácil utilização
 
-Entre os principais benefícios esperados com o desenvolvimento do Checker News estão:
-
-- Maior facilidade para verificar informações;
-- Redução do compartilhamento impulsivo de conteúdos não verificados;
-- Incentivo ao pensamento crítico;
-- Acesso simplificado a informações relacionadas à confiabilidade de notícias;
-- Maior conscientização sobre a importância da verificação de fatos;
-- Utilização da tecnologia para auxiliar no combate à disseminação de informações enganosas.
+O sistema deverá apresentar uma interface simples e objetiva, permitindo que o usuário compreenda facilmente como realizar uma análise.
 
 ---
 
-## 8. Lean Canvas
+## 5. Requisitos Não Funcionais
 
-O Lean Canvas foi utilizado para organizar os principais aspectos do projeto, permitindo visualizar o problema identificado, o público-alvo, o contexto, a solução proposta, a proposta de valor, as soluções existentes, as funcionalidades e os diferenciais da ideia.
+### RNF01 — Usabilidade
 
-O modelo também contribui para estruturar a proposta do Checker News antes e durante o desenvolvimento da aplicação.
+A aplicação deverá possuir uma interface intuitiva, permitindo que usuários com diferentes níveis de conhecimento tecnológico consigam utilizar a ferramenta.
 
-**Artefato:**  
-[Inserir aqui o link para o Lean Canvas]
+### RNF02 — Desempenho
 
-**Imagem do Lean Canvas:**  
-[Inserir aqui a imagem do Lean Canvas]
+O sistema deverá realizar o processamento das informações em tempo adequado para proporcionar uma experiência satisfatória ao usuário.
 
----
+### RNF03 — Clareza
 
-## 9. Missão, Visão e Valores
+Os resultados deverão ser apresentados de maneira clara, evitando informações desnecessariamente complexas.
 
-A definição de missão, visão e valores estabelece os princípios que orientam o desenvolvimento e a finalidade do Checker News.
+### RNF04 — Responsabilidade
 
-### Missão
+O sistema deverá deixar claro que o resultado apresentado possui caráter de apoio à verificação e não deve ser interpretado automaticamente como uma confirmação absoluta da veracidade ou falsidade de uma informação.
 
-Auxiliar as pessoas a identificar informações falsas ou enganosas, oferecendo uma forma simples e acessível de verificar notícias antes de acreditar ou compartilhá-las.
+### RNF05 — Segurança
 
-### Visão
-
-Ser uma ferramenta de referência em verificação de informações, contribuindo para um ambiente digital mais consciente, informado e responsável.
-
-### Valores
-
-- Confiabilidade;
-- Transparência;
-- Responsabilidade;
-- Acessibilidade;
-- Inovação;
-- Respeito à informação;
-- Foco no usuário.
-
-**Artefato:**  
-[Inserir aqui o link para Missão, Visão e Valores]
-
-**Imagem de Missão, Visão e Valores:**  
-[Inserir aqui a imagem da tabela]
+As informações fornecidas pelo usuário deverão ser tratadas de acordo com as práticas de segurança e privacidade aplicáveis ao sistema.
 
 ---
 
-## 10. Considerações Finais
+## 6. Fluxo Principal do Usuário
 
-O Checker News foi concebido como uma solução tecnológica para auxiliar os usuários diante do crescente volume de informações disponíveis no ambiente digital.
+O fluxo principal do Checker News será composto pelas seguintes etapas:
 
-A proposta concentra-se em facilitar o processo de análise de notícias e incentivar uma postura mais responsável diante do consumo e compartilhamento de informações.
-
-O projeto poderá ser aprimorado continuamente a partir da utilização pelos usuários, da avaliação dos resultados apresentados e da evolução das tecnologias utilizadas na análise de informações.
+```text
+Usuário
+   ↓
+Acessa o Checker News
+   ↓
+Insere a notícia ou informação
+   ↓
+Solicita a análise
+   ↓
+Sistema processa o conteúdo
+   ↓
+Resultado da análise
+   ↓
+Usuário interpreta o resultado
