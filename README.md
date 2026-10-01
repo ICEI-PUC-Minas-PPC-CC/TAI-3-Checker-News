@@ -2,7 +2,7 @@
 
 ## 1. Visão Geral do Projeto
 
-O Checker News é uma aplicação desenvolvida pelo expo.go com o objetivo de auxiliar os usuários na identificação de informações falsas, enganosas ou potencialmente duvidosas presentes em notícias e conteúdos compartilhados no ambiente digital.
+O Checker News é uma aplicação desenvolvida com o objetivo de auxiliar os usuários na identificação de informações falsas, enganosas ou potencialmente duvidosas presentes em notícias e conteúdos compartilhados no ambiente digital.
 
 A proposta surgiu a partir do crescimento da circulação de informações pela internet, especialmente em redes sociais, aplicativos de mensagens e plataformas digitais. A velocidade com que uma informação pode ser compartilhada faz com que muitas pessoas tenham dificuldade para verificar sua confiabilidade antes de acreditar ou repassar determinado conteúdo.
 
