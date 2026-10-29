@@ -6,10 +6,12 @@ O Checker News é uma solução voltada à identificação e verificação de in
 
 O projeto tem como objetivo auxiliar os usuários na análise de conteúdos informativos, apresentando informações de verificação de forma simples, objetiva e acessível. A solução busca contribuir para o consumo mais consciente de informações digitais, especialmente em ambientes onde a disseminação de notícias falsas pode ocorrer rapidamente.
 
-O modelo de negócio foi estruturado considerando dois cenários:
+O modelo de negócio foi revisado em 29/10/2026 para manter coerência com o planejamento financeiro da Etapa 3. Ele considera dois contextos **prospectivos**, e não operações efetivamente realizadas:
 
-- Cenário Lean: estrutura mínima necessária para colocar o produto em funcionamento e validar a proposta.
-- Cenário Ideal: estrutura ampliada, considerando recursos tecnológicos, humanos e de divulgação desejáveis para a operação e crescimento do negócio.
+- **Cenário MVP acadêmico enxuto:** base da planilha de Fluxo de Caixa de 12 meses; equipe de estudantes sem remuneração, infraestrutura inicialmente gratuita sob limites e custos variáveis simulados.
+- **Cenário de expansão futura:** eventual operação empresarial estruturada, com custos adicionais a orçar após validar usuários, qualidade técnica, fornecedores e requisitos legais.
+
+O preço de referência do plano Premium foi atualizado de R$ 9,90 para **R$ 12,90 por mês**, conforme a decisão mais recente da equipe. Todos os custos, usuários, receitas e resultados projetados continuam sendo hipóteses acadêmicas, não vendas ou despesas reais.
 
 ---
 
@@ -89,118 +91,95 @@ A estratégia inicial priorizará canais de baixo custo, principalmente redes so
 
 6. Levantamento de Custos
 
-Os custos foram divididos entre custos iniciais e custos recorrentes.
+Os custos são separados em despesas de operação, gastos variáveis associados à quantidade de consultas e eventuais investimentos futuros. A simulação da Etapa 3 não inclui equipe remunerada, abertura de empresa, contabilidade, licenças pagas ou atendimento profissional.
 
-6.1 Custos iniciais
+6.1. Gastos iniciais e capital de giro
 
-Entre os principais investimentos necessários estão:
+- **Investimento fixo inicial: R$ 0 na simulação acadêmica**, porque se pressupõe uso de equipamentos existentes, trabalho voluntário e infraestrutura sem cobrança dentro das franquias gratuitas.
+- **Domínio: R$ 40/ano**, lançado como saída de caixa no primeiro mês (não confundir com investimento fixo).
+- **Capital de giro:** o saldo acumulado fica negativo em parte da projeção, alcançando déficit máximo de **R$ 102,27**, que precisaria ser financiado numa operação real.
 
-- Desenvolvimento e configuração da plataforma;
-- Registro de domínio;
-- Criação da identidade visual;
-- Configuração de serviços de hospedagem;
-- Configuração de banco de dados;
-- Integração com APIs e serviços externos, quando necessários;
-- Ferramentas de desenvolvimento e gerenciamento;
-- Divulgação inicial.
+6.2. Custos recorrentes e variáveis utilizados no exercício
 
-Como o projeto possui caráter digital, é possível iniciar com uma estrutura relativamente enxuta.
+- Hospedagem e banco de dados: R$ 0/mês inicialmente, condicionados a franquias e termos dos fornecedores.
+- Verificação de notícias: **R$ 0,25 por análise**, estimativa didática a validar com serviços concretos.
+- Divulgação: de R$ 0 a R$ 50/mês, segundo o calendário de projeções.
+- Outras despesas: de R$ 0 a R$ 5/mês, segundo o calendário de projeções.
+- Pagamentos: 4,5% da receita bruta **mais R$ 0,25 por transação**, hipótese não contratada.
+- Tributos: provisão didática de 6% sobre a receita, **sem afirmar enquadramento ou alíquota legal efetiva**.
 
----
-
-7. Cenário Lean
-
-O cenário Lean representa a estrutura mínima necessária para validar o produto e colocar a primeira versão do Checker News em funcionamento.
-
-Estrutura considerada
-
-Item| Estimativa mensal
-Hospedagem| R$ 100
-Banco de dados/serviços em nuvem| R$ 100
-APIs e serviços externos| R$ 150
-Domínio e serviços relacionados| R$ 20
-Ferramentas de desenvolvimento| R$ 100
-Marketing inicial| R$ 200
-Outros custos operacionais| R$ 100
-Total estimado| R$ 770/mês
-
-Investimento inicial estimado
-
-Item| Estimativa
-Configuração inicial da plataforma| R$ 500
-Identidade visual e materiais| R$ 300
-Configuração de infraestrutura| R$ 200
-Divulgação inicial| R$ 300
-Reserva para despesas iniciais| R$ 500
-Total| R$ 1.800
-
-Os valores são estimativas para planejamento e podem variar de acordo com os fornecedores, tecnologias utilizadas e volume de usuários.
-
-O objetivo do cenário Lean é manter os custos baixos durante a fase de validação do produto.
+Essa estrutura substitui, **como cenário-base atual**, o orçamento anterior de R$ 770/mês e R$ 1.800 de investimento fixo inicial. O orçamento antigo não deve ser usado para calcular o resultado do novo fluxo de caixa.
 
 ---
 
-8. Cenário Ideal
+7. Cenário Lean — MVP Acadêmico Enxuto
 
-O cenário Ideal considera uma estrutura mais completa, preparada para atender um número maior de usuários e possibilitar o crescimento do negócio.
+O cenário Lean atualizado representa a primeira validação do Checker News, desenvolvida por estudantes com ferramentas já disponíveis. O objetivo é testar a proposta com gastos hipotéticos reduzidos, não precificar uma empresa completa.
 
-Estrutura considerada
+| Item | Premissa adotada | Natureza |
+| --- | ---: | --- |
+| Hospedagem do site | R$ 0/mês inicialmente | Plano gratuito, com limites de uso |
+| Banco de dados | R$ 0/mês inicialmente | Plano gratuito, com limites de uso |
+| Domínio `.br` | R$ 40/ano | Preço de referência; lançado no primeiro mês |
+| Custo das verificações | R$ 0,25 por consulta | Hipótese técnica a validar |
+| Marketing | R$ 0 a R$ 50/mês | Hipótese progressiva |
+| Outras despesas | R$ 0 a R$ 5/mês | Hipótese progressiva |
+| Taxas de pagamento | 4,5% da receita + R$ 0,25/transação | Hipótese financeira |
+| Provisão tributária | 6% da receita | Hipótese didática |
+| Investimento fixo inicial | R$ 0 | Não contempla capital de giro |
 
-Item| Estimativa mensal
-Infraestrutura em nuvem| R$ 500
-APIs e serviços especializados| R$ 500
-Ferramentas de desenvolvimento e gestão| R$ 300
-Marketing digital| R$ 1.000
-Produção de conteúdo| R$ 800
-Suporte e atendimento| R$ 700
-Monitoramento e segurança| R$ 400
-Reserva operacional| R$ 300
-Total estimado| R$ 4.500/mês
+Como os custos variam conforme o uso, **não existe um custo mensal fixo único** para todo o primeiro ano. Na planilha do cenário-base, as saídas totais somam **R$ 1.855,93 em 12 meses** e as saídas do mês 12 são **R$ 429,70**.
 
-Investimento inicial estimado
+Premissas de utilização: uma análise por usuário gratuito ativo ao mês e oito análises mensais por assinante Premium (média de consumo simulada, não recurso já entregue). A viabilidade comercial dependerá de qualidade técnica das verificações, confirmação dos custos e disposição real a pagar.
 
-Item| Estimativa
-Desenvolvimento e melhorias da plataforma| R$ 3.000
-Identidade visual e comunicação| R$ 1.000
-Infraestrutura inicial| R$ 1.000
-Marketing e lançamento| R$ 2.000
-Equipamentos e ferramentas| R$ 1.500
-Reserva de capital| R$ 2.500
-Total| R$ 11.000
+Referências de infraestrutura e domínio: https://registro.br/dominio ; https://developers.cloudflare.com/pages/functions/pricing/ ; https://supabase.com/pricing . As tarifas e franquias devem ser reconfirmadas antes do lançamento.
 
-O cenário Ideal permite maior capacidade de atendimento, investimento em divulgação, melhoria da experiência do usuário e desenvolvimento contínuo da plataforma.
+---
+
+8. Cenário de Expansão Futura
+
+Este cenário não foi incluído no fluxo de caixa acadêmico de 12 meses. Representa uma etapa posterior, caso a solução valide demanda e precise crescer.
+
+| Área | Despesa a considerar em orçamento futuro |
+| --- | --- |
+| Infraestrutura | Hospedagem e banco de dados pagos ao ultrapassar franquias |
+| Serviços especializados | APIs, consulta de fontes, testes e eventual revisão editorial |
+| Pessoas | Desenvolvimento, suporte, manutenção, comunicação e gestão |
+| Compliance | Formalização, tributos efetivos, contabilidade e privacidade |
+| Aquisição | Marketing pago e parcerias com instituições |
+| Segurança | Monitoramento, backups, observabilidade e gestão de incidentes |
+
+**Não foi aprovado um custo mensal ou investimento inicial para esse cenário.** As antigas estimativas de R$ 4.500/mês e R$ 11.000 iniciais não são utilizadas como números atuais e não devem ser somadas à projeção do MVP. Um orçamento empresarial completo exigirá fornecedores, equipe, escala de uso e obrigações legais definidos.
 
 ---
 
 9. Comparação dos Cenários
 
-Característica| Cenário Lean| Cenário Ideal
-Investimento inicial| R$ 1.800| R$ 11.000
-Custo mensal estimado| R$ 770| R$ 4.500
-Infraestrutura| Básica| Estruturada
-Marketing| Orgânico e baixo investimento| Campanhas e produção de conteúdo
-Suporte| Simplificado| Estruturado
-Escalabilidade| Inicial| Maior
-Objetivo| Validar o negócio| Operar e crescer
+| Característica | MVP acadêmico enxuto (base do fluxo) | Expansão futura (não orçada) |
+| --- | --- | --- |
+| Estágio | Validação e testes | Operação e crescimento |
+| Investimento fixo inicial | R$ 0 na simulação | A estimar |
+| Capital de giro inicial | Até R$ 102,27 de déficit acumulado projetado | A estimar |
+| Custos operacionais | Variáveis por consultas, pagamentos e divulgação | Acrescenta equipe, infraestrutura e despesas empresariais |
+| Saídas no 12º mês | R$ 429,70 projetados | A estimar |
+| Divulgação | Orgânica e de baixo custo | Poderá incluir campanhas pagas |
+| Rentabilidade | Hipótese acadêmica condicionada às premissas | Não calculada |
 
-Os valores apresentados são estimativas para elaboração do plano e devem ser revisados conforme o projeto avance e sejam definidos fornecedores e serviços reais.
+O resultado de um cenário não deve ser extrapolado para o outro. Os indicadores da Etapa 3 consideram **somente o MVP acadêmico enxuto**.
 
 ---
 
 10. Modelo de Precificação
 
-A precificação deverá considerar os custos de operação, o valor percebido pelo usuário e a necessidade de sustentabilidade financeira do negócio.
+O Checker News utilizará como proposta inicial um modelo freemium, com acesso gratuito e assinatura para uso mais recorrente. O preço-base aprovado pela equipe para esta simulação é **R$ 12,90/mês**.
 
-Será utilizado inicialmente um modelo de assinatura mensal, combinado com uma versão gratuita.
+| Plano | Preço projetado | Público e proposta |
+| --- | ---: | --- |
+| Gratuito | R$ 0 | Acesso básico; hipótese de 1 análise/mês para cálculo de custos |
+| Premium | **R$ 12,90/mês** | Usuários frequentes; hipótese de consumo médio de 8 análises mensais |
+| Institucional | A definir | Possível oferta futura a escolas e organizações; sem receita computada |
 
-Exemplo de estrutura de preços
-
-Plano| Preço sugerido| Público
-Gratuito| R$ 0| Usuários ocasionais
-Premium| R$ 9,90/mês| Usuários frequentes
-Institucional| A definir| Escolas, empresas e organizações
-
-O preço de R$ 9,90 é uma referência inicial para estudo e poderá ser ajustado após testes com usuários e análise de custos.
+Histórico, relatórios mais detalhados e outros recursos Premium são **funcionalidades previstas**, não implementações confirmadas. O preço e os limites de uso precisarão ser validados com usuários e fornecedores antes de comercialização.
 
 ---
 
@@ -242,48 +221,61 @@ Por esse motivo, antes do início da operação comercial, deverá ser realizada
 
 13. Projeção de Receita — Cenário Simples
 
-Para realizar uma primeira simulação financeira, será considerado o plano Premium com mensalidade de R$ 9,90.
+Para fins acadêmicos, a referência atual é **R$ 12,90 por assinatura Premium ao mês**. A receita bruta representa apenas o número de assinantes pagantes multiplicado pela mensalidade, sem publicidade ou planos institucionais como receita assegurada.
 
-Exemplo com 100 assinantes
+| Assinantes Premium | Receita bruta mensal hipotética |
+| ---: | ---: |
+| 5 | R$ 64,50 |
+| 12 | R$ 154,80 |
+| 29 | R$ 374,10 |
+| 45 | R$ 580,50 |
+| 100 | R$ 1.290,00 |
 
-100 × R$ 9,90 = R$ 990,00/mês
+Na projeção detalhada, os quatro primeiros meses não têm assinantes pagantes; a simulação chega a **45 assinantes e R$ 580,50 de entradas em outubro de 2027**. No período de novembro de 2026 a outubro de 2027, a receita bruta acumulada estimada é **R$ 2.244,60**.
 
-Exemplo com 300 assinantes
-
-300 × R$ 9,90 = R$ 2.970,00/mês
-
-Exemplo com 500 assinantes
-
-500 × R$ 9,90 = R$ 4.950,00/mês
-
-Esses valores representam receita bruta estimada e não consideram impostos, taxas de pagamento, cancelamentos ou outros custos.
+Os números não correspondem a clientes reais, e o crescimento mensal é uma hipótese de planejamento.
 
 ---
 
-14. Cenário Financeiro Simplificado
+14. Cenário Financeiro Simplificado — Projeção de 12 Meses
 
-Considerando o cenário Lean, com custo mensal estimado de R$ 770:
+O fluxo de caixa específico da Etapa 3 considera novembro de 2026 a outubro de 2027, custos variáveis de análise e cobrança, divulgação gradual e provisão didática para tributos.
 
-Assinantes| Receita mensal| Custo estimado| Resultado antes de tributos
-50| R$ 495| R$ 770| -R$ 275
-100| R$ 990| R$ 770| R$ 220
-200| R$ 1.980| R$ 770| R$ 1.210
-300| R$ 2.970| R$ 770| R$ 2.200
-500| R$ 4.950| R$ 770| R$ 4.180
+| Indicador | Projeção acadêmica |
+| --- | ---: |
+| Receita bruta total (12 meses) | R$ 2.244,60 |
+| Saídas de caixa totais (12 meses) | R$ 1.855,93 |
+| **Saldo acumulado em 12 meses** | **R$ 388,67** |
+| Déficit máximo acumulado (necessidade de capital de giro) | R$ 102,27 |
+| Pagantes no mês 12 | 45 |
+| Usuários gratuitos ativos no mês 12 | 850 |
+| Receita bruta no mês 12 | R$ 580,50 |
+| Saídas de caixa no mês 12 | R$ 429,70 |
+| Saldo mensal no mês 12 | R$ 150,80 |
 
-Esta simulação não representa uma previsão de faturamento, mas uma ferramenta para visualizar a relação entre número de clientes, receita e custos.
+O saldo **mensal** torna-se positivo no 6º mês (abril de 2027); o saldo **acumulado** fica positivo no 9º mês (julho de 2027). Isso não representa lucro empresarial efetivo: não foram incluídos salários, abertura de empresa, contabilidade nem eventuais custos de escalabilidade. Taxas e tributos são hipóteses, e o custo de R$ 0,25 por verificação é a principal incerteza técnica.
+
+A planilha `Etapa_3/planilhas/Fluxo_de_Caixa_Checker_News.xlsx` traz mês a mês, premissas, resumo e sensibilidade. Os cálculos devem ser analisados junto das hipóteses, não isoladamente.
 
 ---
 
 15. Ponto de Equilíbrio Simplificado
 
-Considerando apenas o custo operacional mensal estimado do cenário Lean e a mensalidade de R$ 9,90:
+O ponto de equilíbrio depende das condições do mês analisado. Para outubro de 2027 (12º mês), projetam-se **850 usuários gratuitos ativos**, com uma análise por mês ao custo de R$ 0,25, além de R$ 50 de divulgação e R$ 5 de outras despesas.
 
-R$ 770 ÷ R$ 9,90 ≈ 78 assinantes
+Despesas que não dependem do número de assinantes pagantes nesse mês:
 
-Portanto, aproximadamente 78 assinantes seriam necessários para igualar a receita bruta aos custos mensais estimados, antes da consideração de tributos, taxas de pagamento e outros custos variáveis.
+`850 × R$ 0,25 + R$ 50 + R$ 5 = R$ 267,50`
 
-Esse número é apenas uma referência matemática e deverá ser recalculado conforme os custos reais do negócio.
+Contribuição mensal estimada de cada Premium, considerando oito consultas, tributos simulados e taxa de pagamento:
+
+`R$ 12,90 − (8 × R$ 0,25) − (4,5% × R$ 12,90) − R$ 0,25 − (6% × R$ 12,90) = R$ 9,2955`
+
+Ponto de equilíbrio operacional mensal projetado:
+
+`R$ 267,50 ÷ R$ 9,2955 = 28,78 ⇒ 29 assinantes Premium`
+
+**Os 29 assinantes não são a meta para recuperar todo o investimento, nem um equilíbrio de empresa formalizada**. Trata-se apenas da cobertura de custos específicos do mês 12. O modelo desconsidera remuneração da equipe e obrigações de uma operação comercial real. Mudanças no custo de análise, número de usuários gratuitos e impostos alteram esse equilíbrio.
 
 ---
 
@@ -357,26 +349,34 @@ Para acompanhar a evolução do negócio, poderão ser utilizados os seguintes i
 
 19. Conclusão
 
-O Plano de Negócios do Checker News apresenta uma estrutura inicial que permite validar a solução com investimento relativamente baixo antes da realização de investimentos maiores.
+O Checker News apresenta uma proposta de ferramenta digital para apoiar usuários na verificação de notícias e conteúdos potencialmente enganosos, sem prometer determinação infalível da veracidade das informações.
 
-O cenário Lean prioriza a validação da proposta de valor, utilizando uma infraestrutura enxuta e canais digitais de baixo custo.
+A simulação revisada adota um **MVP acadêmico enxuto** e preço Premium de **R$ 12,90/mês**. Sob hipóteses de infraestrutura gratuita, equipe voluntária, custo médio de R$ 0,25 por verificação e crescimento até 45 assinantes no mês 12, o fluxo de caixa projeta saldo acumulado positivo de **R$ 388,67** em 12 meses, após déficit máximo de **R$ 102,27**. Esses números são projeções de caixa e **não comprovam rentabilidade comercial**.
 
-O cenário Ideal considera uma estrutura mais completa, com maior investimento em infraestrutura, marketing, suporte e desenvolvimento, permitindo preparar o negócio para uma quantidade maior de usuários.
+Uma eventual expansão exigirá validação da qualidade dos resultados, demanda pagante, custos reais de infraestrutura e APIs, enquadramento tributário, segurança, privacidade e despesas com pessoas. O Balanced Scorecard, a análise SWOT e o fluxo de caixa da Etapa 3 servem como instrumentos de planejamento e monitoramento dessas hipóteses.
 
-A estratégia de monetização poderá utilizar um modelo freemium, oferecendo funcionalidades básicas gratuitamente e recursos adicionais por meio de assinatura Premium e planos institucionais.
-
-Os valores apresentados neste documento são estimativas para fins acadêmicos e de planejamento. Custos, preços, tributos e demais informações financeiras deverão ser revisados antes de uma eventual operação comercial real, considerando fornecedores, legislação vigente, faturamento e características definitivas da empresa.
+Todos os preços, metas, usuários e resultados apresentados são estimativas acadêmicas. Não houve venda de assinaturas nem contratação de fornecedores no âmbito desta projeção.
 
 ---
 
 20. Resumo Executivo
 
-Indicador| Cenário Lean| Cenário Ideal
-Investimento inicial| R$ 1.800| R$ 11.000
-Custo mensal estimado| R$ 770| R$ 4.500
-Modelo de receita| Freemium + Premium| Freemium + Premium + Institucional
-Preço Premium de referência| R$ 9,90/mês| R$ 9,90/mês
-Principal canal| Site e redes sociais| Site, redes sociais e parcerias
-Objetivo| Validação| Crescimento e escala
+| Indicador | MVP acadêmico enxuto | Expansão futura |
+| --- | --- | --- |
+| Estágio | Validação de MVP | Escala comercial, ainda não orçada |
+| Modelo de receita | Gratuito + Premium | Poderá incluir Institucional |
+| Preço de referência Premium | **R$ 12,90/mês** | Sujeito a validação |
+| Investimento fixo inicial | R$ 0 na simulação | A estimar |
+| Necessidade máxima de capital de giro | R$ 102,27 na simulação | A estimar |
+| Despesas do 12º mês | R$ 429,70 | A estimar |
+| Receitas totais em 12 meses | R$ 2.244,60 | Não projetadas |
+| Saldo acumulado em 12 meses | R$ 388,67 | Não projetado |
+| Equilíbrio mensal (mês 12) | 29 assinantes Premium | Não calculado |
+| Principal canal | Site e redes sociais | Site e parcerias possíveis |
+| Objetivo | Validar produto e hipóteses financeiras | Crescimento responsável |
 
-Documento elaborado para o projeto Checker News.
+**Documentos relacionados:** `README.md` (contexto da etapa anterior), `Especificação de Projeto` (requisitos) e `Etapa_3/README.md` (índice da nova etapa).
+
+**Fontes para conferir custos e tecnologia:** https://registro.br/dominio ; https://developers.cloudflare.com/pages/functions/pricing/ ; https://supabase.com/pricing . Os valores de APIs, pagamentos, tributos e crescimento de usuários são **hipóteses** e não cotações ou resultados medidos.
+
+Documento revisado em 29/10/2026 para o trabalho acadêmico Checker News.
