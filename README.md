@@ -103,7 +103,8 @@ O modelo também contribui para estruturar a proposta do Checker News antes e du
 
 
  
-<img width="1209" height="854" alt="1000235061" src="https://github.com/user-attachments/assets/0dc1dd90-d7b4-41b0-8404-da3a1dede54e" />
+<img width="1204" height="849" alt="Captura_de_tela_20261029_213556" src="https://github.com/user-attachments/assets/03caf988-485f-491a-8df0-69a3a445a1f8" />
+
 
 
 ---
